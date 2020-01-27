@@ -1,0 +1,75 @@
+﻿<Window x:Class="final_project_ap.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:final_project_ap"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="900" Width="400">
+    <StackPanel>
+        <Grid>
+            <Button x:Name="dokme_query"  Margin="29,734,244,-755" Content="query" Click="click_query"></Button>
+            <Button x:Name="dokme_save" Content="Save" Click="click_save" Margin="29,785,244,-806"></Button>
+            <Button x:Name="dokme_new" Content="New" Click="click_new" Margin="29,831,244,-850"></Button>
+        </Grid>
+        <Canvas x:Name="LeftCanvas" Width="150" Height="150" VerticalAlignment="Top" Margin="122,0,123,0">
+
+            <Ellipse Width="140" Height="140" Margin="5">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="C:\Users\kamyab\Desktop\final_project_ap\final_project_ap\ClockBackground.jpg"/>
+                </Ellipse.Fill>
+            </Ellipse>
+
+            <Ellipse Width="25" Height="25" Margin="100 62.5 0 0" >
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="C:\Users\kamyab\Desktop\final_project_ap\final_project_ap\images (4).jpg"/>
+                </Ellipse.Fill>
+            </Ellipse>
+
+            <Label x:Name="ClockDayLabel" Width="25" Height="25" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="100 61.5 0 0" FontWeight="Bold"/>
+
+            <Line x:Name="HourCounter" Stroke="Black" StrokeThickness="3"/>
+            <Line x:Name="HourPointer" Stroke="GreenYellow" StrokeThickness="2"/>
+            <Line x:Name="MinuteCounter" Stroke="Black" StrokeThickness="2.5"/>
+            <Line x:Name="MinutePointer" Stroke="GreenYellow" StrokeThickness="1.5"/>
+            <Line x:Name="SecondCounter" Stroke="Red" StrokeThickness="1"/>
+
+            <Ellipse Width="7" Height="7" Margin="71.5 71.5 0 0" >
+                <Ellipse.Fill>
+                    <LinearGradientBrush>
+                        <GradientStop Color="Red"/>
+                    </LinearGradientBrush>
+                </Ellipse.Fill>
+            </Ellipse>
+
+        </Canvas>
+        <TextBlock Text="safe etelaat" Margin="00 30" FontSize="15" FontWeight="Bold" TextAlignment="Center" />
+        <TextBox x:Name="safe" Height="319" Margin="10,0" AcceptsReturn="True"></TextBox>
+        <TextBlock Text="1.afrad ba sene balaye ..." Height="17" Margin="10,0,264,0"></TextBlock>
+        <TextBox x:Name="query_sen_bala" Height="18" Margin="20,5,357,0"/>
+        <TextBlock Text="2.afrad ba sene paeene ..." Height="25" Margin="10,0,264,0"></TextBlock>
+        <TextBox x:Name="query_sen_paeen" Height="18" Margin="20,0,357,0"></TextBox>
+        <TextBlock Text="3.afrad motevaled shode dar .." Height="25" Margin="10,0,233,0"></TextBlock>
+        <TextBox x:Name="query_sal_tavalod" Height="18" Margin="20,0,357,0"></TextBox>
+        <TextBlock Text="7.shahr" Height="24" Margin="20,0,233,0"></TextBlock>
+        <TextBox x:Name="query_shahr" Height="18" Margin="20,0,296,0" ></TextBox>
+        <TextBlock Text="4.esm" Height="25" Margin="200,-230,135,0"></TextBlock>
+        <TextBox x:Name="query_esm" Height="20" Margin="200,-190,124,0"></TextBox>
+        <TextBlock Text="5.afrad ba moadele ..." Height="22" Margin="200,-140,71,0" ></TextBlock>
+        <TextBox x:Name="query_moadele_koli" Height="20" Margin="200,-110,87,0"></TextBox>
+        <TextBlock Text="6.afrad ba javab modele .. va .." Height="23" Margin="200,-50,37,0"></TextBlock>
+        <TextBox x:Name="query_x" Height="21" Margin="200,-16,170,0"></TextBox>
+        <TextBox x:Name="query_y" Height="22" Margin="260,-20,110,0"></TextBox>
+        <CheckBox Checked="Checkbox_Checked" x:Name="check_1" Content="1" Height="19" Margin="200,20,158,0"></CheckBox>
+        <CheckBox Checked="Checkbox_Checked" x:Name="check_2" Content="2" Height="19" Margin="200,0,158,0"></CheckBox>
+        <CheckBox Checked="Checkbox_Checked" x:Name="check_3" Content="3"  Height="19" Margin="200,0,158,0"></CheckBox>
+        <CheckBox Checked="Checkbox_Checked" x:Name="check_4" Content="4"  Height="19" Margin="200,0,158,0"></CheckBox>
+        <CheckBox Checked="Checkbox_Checked" x:Name="check_5" Content="5"  Height="19" Margin="200,0,158,0"></CheckBox>
+        <CheckBox Checked="Checkbox_Checked" x:Name="check_6" Content="6"  Height="19" Margin="200,0,158,0"></CheckBox>
+        <CheckBox Checked="Checkbox_Checked" x:Name="check_7" Content="7"  Height="20" Margin="300,-205,57,0"></CheckBox>
+        <CheckBox Checked="Checkbox_Checked" x:Name="check_8" Content="8"  Height="20" Margin="300,-165,57,0"></CheckBox>
+        <CheckBox Checked="Checkbox_Checked" x:Name="check_9" Content="9"  Height="20" Margin="300,-125,57,0"></CheckBox>
+    </StackPanel>
+
+
+</Window>

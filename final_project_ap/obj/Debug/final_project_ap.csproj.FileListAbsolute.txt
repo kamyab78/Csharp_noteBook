@@ -1,0 +1,15 @@
+C:\Users\kamyab\Desktop\final_project_ap\final_project_ap\bin\Debug\final_project_ap.exe.config
+C:\Users\kamyab\Desktop\final_project_ap\final_project_ap\bin\Debug\final_project_ap.exe
+C:\Users\kamyab\Desktop\final_project_ap\final_project_ap\bin\Debug\final_project_ap.pdb
+C:\Users\kamyab\Desktop\final_project_ap\final_project_ap\obj\Debug\final_project_ap.csprojAssemblyReference.cache
+C:\Users\kamyab\Desktop\final_project_ap\final_project_ap\obj\Debug\MainWindow.g.cs
+C:\Users\kamyab\Desktop\final_project_ap\final_project_ap\obj\Debug\App.g.cs
+C:\Users\kamyab\Desktop\final_project_ap\final_project_ap\obj\Debug\final_project_ap_MarkupCompile.cache
+C:\Users\kamyab\Desktop\final_project_ap\final_project_ap\obj\Debug\final_project_ap_MarkupCompile.lref
+C:\Users\kamyab\Desktop\final_project_ap\final_project_ap\obj\Debug\MainWindow.baml
+C:\Users\kamyab\Desktop\final_project_ap\final_project_ap\obj\Debug\final_project_ap.g.resources
+C:\Users\kamyab\Desktop\final_project_ap\final_project_ap\obj\Debug\final_project_ap.Properties.Resources.resources
+C:\Users\kamyab\Desktop\final_project_ap\final_project_ap\obj\Debug\final_project_ap.csproj.GenerateResource.cache
+C:\Users\kamyab\Desktop\final_project_ap\final_project_ap\obj\Debug\final_project_ap.csproj.CoreCompileInputs.cache
+C:\Users\kamyab\Desktop\final_project_ap\final_project_ap\obj\Debug\final_project_ap.exe
+C:\Users\kamyab\Desktop\final_project_ap\final_project_ap\obj\Debug\final_project_ap.pdb
